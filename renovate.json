@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "dependencyDashboard": true,
+  "labels": ["toolchain"],
+  "automerge": false,
+  "minimumReleaseAge": "3 days",
+  "packageRules": [
+    {
+      "description": "Majors wait a week and need a tick on the Dependency Dashboard before a PR opens",
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "7 days",
+      "dependencyDashboardApproval": true
+    }
+  ],
+  "vulnerabilityAlerts": { "enabled": true, "labels": ["security"] },
+  "osvVulnerabilityAlerts": true
+}
