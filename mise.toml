@@ -6,7 +6,7 @@ python = "3.14.4"
 go = "1.26.8"
 uv = "0.13.6"
 gh = "2.102.0"
-jq = "1.8.1"
+jq = "1.8.2"
 
 "npm:@google/gemini-cli" = "0.70.0"
 "npm:@playwright/cli" = "0.1.23"
