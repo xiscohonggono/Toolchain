@@ -10,7 +10,7 @@ jq = "1.8.1"
 
 "npm:@google/gemini-cli" = "0.70.0"
 "npm:@playwright/cli" = "0.1.23"
-"npm:@colbymchenry/codegraph" = "1.6.2"
+"npm:@colbymchenry/codegraph" = "1.6.4"
 "npm:ctx7" = "0.12.2"
 "npm:firecrawl-cli" = "1.26.22"
 
