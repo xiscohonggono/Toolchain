@@ -14,4 +14,4 @@ jq = "1.8.2"
 "npm:ctx7" = "0.12.2"
 "npm:firecrawl-cli" = "1.26.22"
 
-"pipx:graphifyy" = "0.9.100"
+"pipx:graphifyy" = "0.9.119"
